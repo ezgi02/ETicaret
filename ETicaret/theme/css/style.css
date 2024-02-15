@@ -1,0 +1,32 @@
+.jumbotron
+{
+    background-image: url("../img/bag.avif");
+    background-size: cover;
+    height: 100%;
+}
+.card {
+    margin-bottom: 20px; /* Kartlar arasında boşluk bırakmak için */
+  }
+  
+  .card-footer {
+    margin-top: -20px; /* Kartların alt kısmındaki "card-footer" ıçin negatif margin kullanarak yukarıya çekme */
+  }
+  .card-body {
+    min-height: 150px; /* Kart içeriğinin minimum yüksekliğini ayarlayarak eşit yükseklik sağlama */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-title, .card-text {
+    flex: 1; /* Başlık ve metin içeriğini eşit yükseklikte genişletme */
+  }
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa; /* Footer arkaplan rengini ayarlayabilirsiniz */
+    padding: 20px; /* Footer içeriğinden kenarlara boşluk bırakmak için */
+  }
+  .float-end {
+    float: right!important;
+}  
